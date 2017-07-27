@@ -1,0 +1,13 @@
+<html>
+<head>
+<script type="text/javascript">
+        function actualizar()
+        {
+           setTimeout("location.reload(true);",60000); //Recarga cada 60 segundos (expresado en milisegundos)
+        }
+</script>
+</head>
+<body onload="JavaScript:timedRefresh(60000);"> <!--Refresca cada 60 segundos (1 minuto) -->
+<iframe src="URLAQUI" height = "100%" width = "100%" onload="actualizar()" />
+</body>
+</html>
